@@ -1,0 +1,44 @@
+.gallery-head{
+  position: relative;
+  background-color: white;
+  border-top: 1px solid #ccccbe;
+  padding:20px;
+  margin:10px;
+}
+
+.gal-head{
+  font-family: 'Open Sans';
+  font-size: 25px;
+  font-weight: 300;
+  color:#b04400;
+  text-align: center;
+}
+.gallery {
+  position: relative;
+  margin: 12px;
+  width: 230px;
+  display: inline-block;
+  /* float: left; */
+  align-items: center;
+}
+
+.desc {
+  font-family: "Open Sans";
+  font-size: 12px;
+  position: relative;
+  background-color: rgba(0,0,0,0.95);
+  padding: 5px 15px 20px 15px;
+  text-align: left;
+  height: 18px;
+  width:230px;
+  color: white;
+  margin-top:-20px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+}
+
+.gallery img {
+  width: 230px;
+  height: 225px;
+  border-radius: 3%;
+}
