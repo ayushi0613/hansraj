@@ -3,13 +3,13 @@
   margin: 0;
   padding: 10px;
   font-size: 14px;
-  text-align:justify;
+  text-align: justify;
   overflow: hidden;
   background-blend-mode: overlay;
 }
 
 .announcement-box {
-  position:absolute;
+  position: absolute;
   background: #fff padding: 20px;
   max-height: inherit;
   height: 400px;
@@ -20,7 +20,7 @@
   border-radius: 15px;
   box-shadow: 0 3px 10px 0;
   right: 10%;
-  top: 10%;
+  top: 5%;
 }
 
 .viewall {
@@ -29,22 +29,21 @@
   height: 11px;
   line-height: 11px;
 }
+
 .announcement-box{
   position: absolute;
-  right: 85px;
+  right: 80px;
   top: 220px;
   font-family: 'Open Sans';
   transition: 0.3s ease-in;
 }
 .viewall {
   position: absolute;
-  right: 28px;
-  top: 27px;
+  right: 30px;
+  top: 30px;
   font-family: 'Open Sans';
   transition: 0.3s ease-in;
 }
-
-
 h2.announcement {
   font-stretch: expanded;
   font-size: 18px;
@@ -56,12 +55,23 @@ h2.announcement {
   margin: 10px 10px 10px 10px;
   border-radius: 7px;
 }
+
 .new{
-  color:white;
+  color: white;
   display: block;
+  margin-bottom: 10px;
   text-decoration: none;
 }
 .new:hover{
-  color:#fff;
-  text-decoration: underline;
+color:#fff;
+text-decoration: underline;
 }
+.announcement-box li a.new:after {
+  content: "";
+  background: url(../images/new.png);
+  height: 31px; width: 30px;
+   position: absolute;
+   margin-left: 7px;
+   top:50%; \
+   transform: translateY(-50%);
+ }

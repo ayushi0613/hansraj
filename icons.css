@@ -2,9 +2,26 @@ hr{
   color:#ccccbe;
 }
 
+.gallery{
+  background-color: white;
+  border-top: 1px solid #ccccbe;
+  padding:20px;
+  margin:10px;
+}
+
+.gal-head{
+  font-family: 'Open Sans';
+  font-size: 25px;
+  font-weight: 300;
+  color:#b04400;
+  text-align: center;
+}
+
+
 figcaption{
   font-family: 'Open Sans';
   font-weight: bolder;
+  font-size: 14px;
 }
 
 .icon-border{
@@ -13,7 +30,6 @@ figcaption{
   border-radius: 50%;
   border-image-width: 10px;
 }
-
 .icon1{
   height:100px;
   width:100px;
@@ -89,28 +105,28 @@ figcaption{
   width: 180px;
   height: 180px;
   text-align: center;
+}
+
+.icon-table{
+  position: absolute;
+  margin:18px;
+  padding:7px;
+  left:5%;
+}
+.iconstd a{
+  text-decoration: none;
   color:black;
 }
 
 .iconstd:hover{
   background-color: #b04400;
   border-radius:3%;
-  color:white;
+  color: white;
 }
 
-.iconstd a{
-  text-decoration: none;
-  color:black;
-}
-
-.icon-table{
-  position: absolute;
-  margin:40px;
-  padding:10px;
-  left:5%;
-}
 .iconstd:hover a{
   color: white;
+  text-decoration: none;
 }
 .iconstd:hover .icon-border{
   background-color: white;
